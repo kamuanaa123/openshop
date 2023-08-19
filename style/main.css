@@ -1,0 +1,611 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: #323232 !important;
+    /* height: 50px;
+    margin-bottom: 25px; */
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 5px 0; */
+}
+
+.headerr {
+    background: #313131;
+    margin-right: 50px;
+}
+
+.btn {
+    margin-top: 15px;
+    color: #FFF;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.nav__links {
+    color: #FFFFFF;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+}
+
+.left-arrow {
+    margin-left: 8px;
+}
+
+.phone-right {
+    margin-right: 8px;
+}
+
+.right {
+    margin-right: 5px;
+}
+
+.nav_search-content {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    justify-content: space-around;
+}
+
+.border_title {
+    padding: 16px 0 0 10px;
+    width: 300px;
+    height: 50px;
+    color: #BBB;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #313131;
+    ;
+}
+
+.search_content {
+    display: flex;
+    padding: 0 0 0 140px;
+}
+
+.button {
+    width: 190px;
+    height: 50px;
+    color: #FFF;
+    background: #313131;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__link-content {
+    display: flex;
+    color: black;
+}
+
+.nav__title-content {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.nav__title-content-info {
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.9px
+}
+
+.nav__link-content:hover {
+    color: black;
+}
+
+.picture-2 {
+    max-width: 740px;
+    width: 100%;
+}
+
+
+.carusel__title {
+    width: 610px;
+    height: 150px;
+    text-align: center;
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 2.4px;
+    margin-bottom: 100px;
+}
+
+.header__carusel {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 70px;
+}
+
+.carusel__content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.button-desc {
+    width: 180px;
+    height: 50px;
+    background: #313131;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.card__title {
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+}
+
+.nav__title-info {
+    display: flex;
+    gap: 30px;
+}
+
+/* box start */
+
+.main__link {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    position: relative;
+    margin-top: 30px;
+}
+
+.span1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    padding: 15px 10px;
+    background: #323232;
+    color: #FFFFFF;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.money__desc2 {
+    position: absolute;
+    z-index: 2;
+    top: 185px;
+    left: 20px;
+}
+
+.card__title2 {
+    position: absolute;
+    top: 145px;
+    left: 20px;
+}
+
+.card__title3 {
+    top: 15px;
+    left: 20px;
+    position: absolute;
+}
+
+.span2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    padding: 15px 10px;
+    background: #323232;
+    color: #FFFFFF;
+    border-radius: 50%;
+    top: 150px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.money__desc3 {
+    position: absolute;
+    top: 73px;
+    left: 20px;
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+}
+
+.right__img {
+    background: whitesmoke;
+}
+
+.bo {
+    margin: 30px 0 0 0;
+}
+
+.card__title {
+    left: 20px;
+    top: 400px;
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    position: absolute;
+    z-index: 2;
+    position: absolute;
+}
+
+.money__desc {
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 30px;
+    top: 410px;
+    left: 20px;
+}
+
+.knopka {
+    color: #FFFFFF;
+    background: #313131;
+    margin-bottom: 83px;
+    width: 190px;
+    height: 50px;
+}
+
+.sds {
+    margin-top: 30px;
+}
+
+.bt-n {
+    display: flex;
+    justify-content: center;
+}
+
+/* box end */
+
+.cards:focus {
+    border: 1px solid black;
+}
+
+.card__title-info {
+    color: #313131;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img__card {
+    max-width: 300px;
+    width: 100%;
+}
+
+.card__desc {
+    color: #313131;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.cell__phone {
+    margin-top: 70px;
+}
+
+.cell__phone-h {
+    /* padding: 0 0 0 70px; */
+    margin-bottom: 30px;
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pl1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl__div {
+    padding: 80px 0 0 0;
+}
+
+
+.pl1__link {
+    padding: 20px 0 0 0;
+    width: 520px;
+}
+
+
+.pl__btn {
+    background: #313131;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 20px;
+    max-width: 190px;
+    text-align: center;
+    padding: 13px 40px 12px 40px;
+}
+
+.card__esc {
+    color: #313131;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* footer start  */
+.footer {
+    padding: 0 0 20px 0;
+    background: #313131;
+}
+
+.footers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__link {
+    height: 50px;
+    width: 330px;
+    background: #FFFFFF;
+}
+
+.footer__link1 {
+    color: #FFF;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__img {
+    max-width: 187px;
+    width: 100%;
+    margin-right: 143px;
+    margin-bottom: 60px;
+}
+
+.footer__sing {
+    display: flex;
+}
+
+.footer__link2 {
+    margin-top: 30px;
+}
+
+.footer__p {
+    border: 2px solid white;
+    color: #FFF;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 190px;
+    height: 50px;
+}
+
+.footers__info {
+    display: flex;
+}
+
+.footer__info {
+    margin-top: 50px;
+    width: 80px;
+    color: #FFF;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__imges {
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.buttona {
+    padding: 0;
+    margin: 0;
+}
+
+.navs1,
+.navs2 {
+    margin: 10px;
+}
+
+.fins__img {
+    max-width: 409px;
+    width: 100%;
+}
+
+.fins__link {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.fins__span {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+.fins__li {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+}
+
+.fins {
+    display: flex;
+}
+
+.fins__a {
+    color: #FFF;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1px;
+    width: 190px;
+    height: 50px;
+    background: #313131;
+    padding: 12px 54px;
+    margin-left: 30px;
+}
+
+.nav__button {
+    background: none;
+    color: #fff;
+    border: none;
+}
+
+.fins__icon {
+    position: relative;
+}
+
+.png1 {
+    position: absolute;
+    z-index: 1;
+    max-width: 1290px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.fins__h {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+
+}
+
+.fins__infos {
+    position: absolute;
+    z-index: 2;
+    margin-top: 164px;
+    color: #313131;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    right: 40px;
+}
+
+.btn:active:after {
+    transform: rotate(180deg);
+    transition: all;
+}
+
+.fins__aa {
+    top: 318px;
+    padding: 13px 39px;
+    background: #313131;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer3{
+    margin-top: 570px;
+}

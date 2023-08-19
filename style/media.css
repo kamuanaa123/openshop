@@ -1,0 +1,35 @@
+@media(max-width:1400px) {
+    .main__link {
+        display: flex;
+        /* gap: 110px; */
+        justify-content: space-evenly;
+    }
+
+    .pl {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:1200px) {
+    /* .main__link {
+        gap: 200px;
+    } */
+
+    .pl {
+        margin-left: 90px;
+    }
+
+    .card__title3 {
+        font-size: 22px;
+    }
+
+    /* .nav__title-info {
+        gap: 20px;
+    } */
+}
+
+@media(max-width:990px) {
+    .card__title3{
+        font-size: 22px;
+    } 
+}
